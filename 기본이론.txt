@@ -1,0 +1,23 @@
+﻿1.HTML ->구조
+2.CSS -> 스타일
+3.스크립트 ->
+
+
+.nav.tMenu fixed 오른쪽 위
+.nav.rMenu fixed 오른쪽  가운데
+.hiddenMenu fiexd 전체 display:none	89
+
+
+jQuery 효과   -> display:none -> block , 시간(1000==1초)
+*** 콜백함수를 사용할수 있다.-> 효과가 실행되고 난 후에 함수를 호출 할수 있다.
+.show(시간, 함수);  .slideUp(시간, 함수); .fadeIn(시간, 함수);  .animate(시간, 함수); 
+1. show ,hide ->보여라, 사라져라 -> 특정 위치
+** .toggle() -> 클릭하면 효과설정, 다시클리하면 원래 설정
+
+2. slideUp, slideDown  ->사라져라, 보여라  -> 위아래로
+** .slideToggle(100); // 시간 1000==1초
+
+3. fadeIn, fadeOut   ->보여라, 사라져라  -> 전체, 자동갤러리, 포지션
+** .fadeToggle(100); // 시간 1000==1초
+
+4. animate -> css스타일을 시간에 따라서 애니메이션 설정
